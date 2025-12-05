@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f172a;
+}
+#title{
+    margin: 20vh;
+       border: 2px solid #1e293b;
+    border-radius: 10px;
+    padding: 40px;
+    width: fit-content;
+    background-color: #1e293b;
+}
+p{
+    font-family: Helvetica;
+    font-size: 3em;
+    margin: 0;
+    text-align: center;
+    font-weight:600;
+    color:rgb(209, 57, 57);
+}
+#countLabel {
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: Helvetica;
+    color: #f7f8f97e;
+}
+
+#btnContainer {
+    text-align: center;
+}
+
+.buttons {
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    background-color: rgb(211, 82, 82);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.buttons:hover {
+    background-color: rgb(176, 31, 31);
+}
